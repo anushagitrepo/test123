@@ -1,16 +1,16 @@
-import os,sys,fnmatch,path
+import os,sys,fnmatch,git
 the_path=raw_input("enter the path : ")
-#assert os.path.exists(the_path),"Specified path does not exist"
+assert os.path.exists(the_path),"Specified path does not exist"
 count=len(fnmatch.filter(os.listdir(the_path),'*'))
 if(count==0):
  new_file=os.path.join(the_path,'newfile.txt')
  f=open(new_file,"w")
  f.write("Auto generated file")
  f.close()
- repo=git.Repo("anushagitrepo")
- repo.git.add("bla.txt")
- repo.git.commit("Auto commit")
- repo.git.push('origin',new_branch)
+# repo=git.Repo("anushagitrepo")
+# repo.git.add("bla.txt")
+# repo.git.commit("Auto commit1")
+# repo.git.push('origin',new_branch)
 else:
  user_response=raw_input("Do you want new file to be created in the path specified ? y/n     ")
  if(user_response=="y" or user_response=="Y" or user_response=="yes"):
