@@ -218,3 +218,56 @@ systemctl stop firewall
 sudo su --
 sudo system ctl stop firewalld
 sudo systemctl stop firewalld
+ls
+git add ..
+git commit -m "test123"
+git push -u origin master
+ls
+vi gitpushpython.py 
+gir add .
+git add ,
+git add .
+git commit -m "test123"
+git push -u origin master
+sudo git push -u origin master
+sudo systemctl stop firewalld
+sudo git push -u origin master
+git push -u origin master
+sudo systemctl stop firewalld
+git push -u origin master
+lss
+ls
+vi gitpushpython.py 
+git remote show
+git add gitpushpython.py 
+git commit -m "File edited"
+git status
+git checkout master
+git push -u origin master
+git log --oneline
+ls
+cd testrepo/
+ls
+vi createfile.py 
+git show
+git remote show
+sudo systemctl stop firewalld
+ls
+sudo gitpushpython.py 
+sudo vi gitpushpython.py 
+git add gitpushpython.py 
+git commit -m "test123"
+git push -u origin master
+git remote rm origin
+git remote show
+pwd
+ls
+git init
+vi test123.txt
+git add test123.txt 
+git commit -m "test123"
+git remote add origin https://github/anushagitrepo/test123.git
+git remote show
+git push -u origin mater
+git remote add origin https://github.com/anushagitrepo/test123.git
+systemctl stop firewalld
